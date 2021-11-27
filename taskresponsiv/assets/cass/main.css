@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#main {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#main .main1 .head h1 {
+  font-weight: bolder;
+}
+
+#main .main1 .paragraph {
+  margin-top: 45px;
+  width: 810px;
+}
+
+#main .main1 .paragraph p {
+  font-weight: 280;
+}
+
+#main .main1 .options ul {
+  margin-top: 42px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main .main1 .options ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 110px;
+  height: 45px;
+  border-radius: 18x;
+  background-color: #f8f6f6;
+  margin-right: 30px;
+  border-radius: 15px;
+}
+
+#main .main1 .options ul li a {
+  font-weight: 240;
+  color: black;
+  text-decoration: none;
+}
+
+#main .main1 .options ul li:first-child {
+  background-color: #e6788a;
+}
+
+#main .main1 .options ul li:hover {
+  background-color: #e6788a;
+}
+
+#main .main1 .options ul li:hover a {
+  color: white;
+}
+
+#main .popular {
+  margin-top: 45px;
+  margin-left: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  border-radius: 18px;
+  background-color: #f8f6f6;
+}
+
+#main .popular .image {
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+#main .popular .image a img {
+  width: 300px;
+  height: 210px;
+}
+
+#main .popular .info {
+  margin-left: 40px;
+  width: 400px;
+  height: 150px;
+  margin-top: 45px;
+}
+
+#main .main .info .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main .popular .info .icon i {
+  margin-right: 10px;
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#main .popular .info .icon p {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#main .popular .info .name {
+  word-spacing: 5px;
+}
+#main .popular ul{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+#main .popular ul li {
+  margin-top: 40px;
+  
+  list-style: none;
+  margin-right: 43px;
+  
+  
+}
+.btn{
+  width: 280px;
+  background-color: red;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  padding: 11px 20px 14px;
+  line-height: 30px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: .3s linear;
+}
+.order{
+  display: flex;
+  align-items: center;
+}
+.campaign_links{
+  margin-left: 80px;
+  font-size: 18px;
+  
+  color: black;
+}
+.campaign-button{
+  margin-top: 150px;
+  margin-left: 50px;
+}
+span{
+  color: red;
+}
+
+
+
+#Credit-cards .heading h3 {
+  font-size: 40px;
+}
+
+#Credit-cards .allcards .allcardsdetail {
+  margin-top: 60px;
+  border-radius: 15px;
+  width: 350px;
+  height: 250px;
+  background-color: #f8f6f6;
+  position: relative;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardimage a {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardimage a img {
+  width: 150px;
+  height: 100px;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardname a {
+  position: absolute;
+  top: 80px;
+  text-decoration: none;
+  color: black;
+  left: 30px;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardinfo {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardinfo ul {
+  list-style: none;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardinfo ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardmore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 180px;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardmore .cardorder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 110px;
+  height: 50px;
+  border: solid 1px #a7a4a4;
+  border-radius: 15px;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardmore .cardorder a {
+  color: #d8596f;
+  text-decoration: none;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardmore .cardorder:hover {
+  background-color: #d8596f;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardmore .cardorder:hover a {
+  color: white;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardmore .cardmoreinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 220px;
+  height: 50px;
+  border: solid 1px #a7a4a4;
+  border-radius: 15px;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardmore .cardmoreinfo a {
+  text-decoration: none;
+  color: #312f2f;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardmore .cardmoreinfo:hover {
+  background-color: #d8596f;
+}
+
+#Credit-cards .allcards .allcardsdetail .cardmore .cardmoreinfo:hover a {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
